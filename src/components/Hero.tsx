@@ -2,12 +2,12 @@ import Image from 'next/image'
 
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
-import logoLaravel from '@/images/logos/laravel.svg'
-import logoMirage from '@/images/logos/mirage.svg'
-import logoStatamic from '@/images/logos/statamic.svg'
-import logoStaticKit from '@/images/logos/statickit.svg'
-import logoTransistor from '@/images/logos/transistor.svg'
-import logoTuple from '@/images/logos/tuple.svg'
+// import logoLaravel from '@/images/logos/laravel.svg'
+// import logoMirage from '@/images/logos/mirage.svg'
+// import logoStatamic from '@/images/logos/statamic.svg'
+// import logoStaticKit from '@/images/logos/statickit.svg'
+// import logoTransistor from '@/images/logos/transistor.svg'
+// import logoTuple from '@/images/logos/tuple.svg'
 
 export function Hero() {
   return (
@@ -46,7 +46,7 @@ export function Hero() {
           <span className="ml-3">Watch video</span>
         </Button>
       </div>
-      <div className="mt-36 lg:mt-44">
+      {/* <div className="mt-36 lg:mt-44">
         <p className="font-display text-base text-slate-900">
           Trusted by these six companies so far
         </p>
@@ -80,7 +80,7 @@ export function Hero() {
             </li>
           ))}
         </ul>
-      </div>
+      </div> */}
     </Container>
   )
 }
