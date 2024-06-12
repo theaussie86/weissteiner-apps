@@ -16,6 +16,7 @@ import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { Logo } from '@/components/Logo'
 import { NavLink } from '@/components/NavLink'
+import { CALENDLY_URL } from '@/lib/util'
 
 function MobileNavLink({
   href,
@@ -60,7 +61,7 @@ function MobileNavIcon({ open }: { open: boolean }) {
 
 function GetStartedButton({ className }: { className?: string }) {
   return (
-    <Button href="/register" className={className} color="primary">
+    <Button href={CALENDLY_URL} className={className} color="primary">
       <span>
         Get started <span className="hidden lg:inline">today</span>
       </span>
