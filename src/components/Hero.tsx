@@ -14,7 +14,7 @@ export function Hero() {
   return (
     <Container className="pb-16 pt-20 text-center lg:pt-32">
       <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl">
-        Automatisierung{' '}
+        Geschäftsprozesse automatisieren{' '}
         <span className="relative whitespace-nowrap text-primary-800">
           <svg
             aria-hidden="true"
@@ -26,12 +26,12 @@ export function Hero() {
           </svg>
           <span className="relative">leicht gemacht</span>
         </span>{' '}
-        für kleine Unternehmen und Selbstständige.
+        für kleine Unternehmen.
       </h1>
       <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
-        Meine No Code Lösungen sind einfach einzurichten und zu bedienen. <br />{' '}
-        Optimieren Sie Ihre Prozesse, ohne komplizierte Technik. Wir machen es
-        möglich.
+        Finden Sie das perfekte Angebot, automatisieren Sie Ihre Lead-Gewinnung
+        und lösen Sie Ihre Projektmanagement-Probleme – während Sie Ihre Umsätze
+        weiter skalieren.
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
         <Button color="primary" href={CALENDLY_URL}>

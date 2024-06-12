@@ -14,28 +14,22 @@ import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
 
 const features = [
   {
-    title: 'Payroll',
+    title: 'Vertriebssysteme',
     description:
-      "Keep track of everyone's salaries and whether or not they've been paid. Direct deposit not supported.",
+      'Automatische Lead-Akquisitionssysteme, die KI verwenden, um Termine in Ihrem Kalender zu buchen.',
     image: screenshotPayroll,
   },
   {
-    title: 'Claim expenses',
+    title: 'Marketing-Systeme',
     description:
-      "All of your receipts organized into one place, as long as you don't mind typing in the data by hand.",
+      'Vollständig betreute Inbound-Marketing-Systeme, die Leads automatisch pflegen und ansprechen.',
     image: screenshotExpenses,
   },
   {
-    title: 'VAT handling',
+    title: 'Projektmanagement-Systeme',
     description:
-      "We only sell our software to companies who don't deal with VAT at all, so technically we do all the VAT stuff they need.",
+      'Hochrentable Projektmanagement-Systeme für Ihre Geschäftsanforderungen.',
     image: screenshotVatReturns,
-  },
-  {
-    title: 'Reporting',
-    description:
-      'Easily export your data into an Excel spreadsheet where you can do whatever the hell you want with it.',
-    image: screenshotReporting,
   },
 ]
 
@@ -76,11 +70,13 @@ export function PrimaryFeatures() {
       <Container className="relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-            Everything you need to run your books.
+            Alles, was Sie brauchen, um Ihr Geschäft effizient zu betreiben.
           </h2>
           <p className="mt-6 text-lg tracking-tight text-blue-100">
-            Well everything you need if you aren’t that picky about minor
-            details like tax compliance.
+            Wir bieten maßgeschneiderte Lösungen für Selbstständige und kleine
+            Unternehmen, um ihre Systeme zu automatisieren und ihre Prozesse zu
+            optimieren. Egal ob es um Webentwicklung, Systemverknüpfung oder
+            Prozessoptimierung geht – wir haben die Expertise.
           </p>
         </div>
         <TabGroup
