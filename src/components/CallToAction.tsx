@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
-import backgroundImage from '@/images/background-call-to-action.jpg'
+import backgroundImage from '@/images/background-custom.png'
 import { CALENDLY_URL } from '@/lib/util'
 
 export function CallToAction() {
@@ -12,7 +12,7 @@ export function CallToAction() {
       className="relative overflow-hidden bg-blue-600 py-32"
     >
       <Image
-        className="absolute left-1/2 top-1/2 max-w-none -translate-x-1/2 -translate-y-1/2"
+        className="absolute left-1/2 top-1/2 max-w-none -translate-x-1/2 -translate-y-1/2 blur-2xl"
         src={backgroundImage}
         alt=""
         width={2347}

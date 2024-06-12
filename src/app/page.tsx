@@ -20,8 +20,8 @@ export default function Home() {
         <HowItWorks />
         <CallToAction />
         {/* <Testimonials />
-        <Pricing /> */}
-        <Faqs />
+        <Pricing />
+        <Faqs /> */}
       </main>
       <Footer />
     </>
