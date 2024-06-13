@@ -62,9 +62,7 @@ function MobileNavIcon({ open }: { open: boolean }) {
 function GetStartedButton({ className }: { className?: string }) {
   return (
     <Button href={CALENDLY_URL} className={className} color="primary">
-      <span>
-        Get started <span className="hidden lg:inline">today</span>
-      </span>
+      <span>Gespräch vereinbaren</span>
     </Button>
   )
 }
