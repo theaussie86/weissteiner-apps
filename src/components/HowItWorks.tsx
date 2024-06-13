@@ -6,9 +6,9 @@ import { Tab, TabGroup, TabList, TabPanel, TabPanels } from '@headlessui/react'
 import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
-import screenshotContacts from '@/images/screenshots/contacts.png'
-import screenshotInventory from '@/images/screenshots/inventory.png'
-import screenshotProfitLoss from '@/images/screenshots/profit-loss.png'
+import screenshotMeeting from '@/images/screenshots/meeting.jpg'
+import screenshotOffer from '@/images/screenshots/offer.jpg'
+import screenshotKickoff from '@/images/screenshots/kickoff.jpg'
 
 interface Step {
   name: React.ReactNode
@@ -24,7 +24,7 @@ const steps: Array<Step> = [
     summary: 'Was möchtest du erreichen?',
     description:
       'Wir können gemeinsam herausfinden, ob ich dir helfen kann und ob wir gut zusammenarbeiten können.',
-    image: screenshotProfitLoss,
+    image: screenshotMeeting,
     icon: function () {
       return (
         <>
@@ -47,7 +47,7 @@ const steps: Array<Step> = [
     summary: 'Wie erreichst du das?',
     description:
       'Ich erstelle dir ein detailliertes Angebot mit den einzelnen Schritten, wie lange diese dauern und dens Kosten. Zusätzlich erhälst du eine Liste möglicher Erweiterungen.',
-    image: screenshotInventory,
+    image: screenshotOffer,
     icon: function () {
       return (
         <>
@@ -70,7 +70,7 @@ const steps: Array<Step> = [
     summary: "Wann geht's los?",
     description:
       'Sobald du das Angebot angenommen hast, vereinbaren wir einen Termin für den Kickoff, bei dem wir alle Details besprechen und den Projektplan festlegen.',
-    image: screenshotContacts,
+    image: screenshotKickoff,
     icon: function () {
       return (
         <>

@@ -7,29 +7,28 @@ import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
 import backgroundImage from '@/images/background-custom.png'
-import screenshotExpenses from '@/images/screenshots/expenses.png'
-import screenshotPayroll from '@/images/screenshots/payroll.png'
-import screenshotReporting from '@/images/screenshots/reporting.png'
-import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
+import imgMarketingSystem from '@/images/screenshots/automated_marketing_system.png'
+import imgSalesSystem from '@/images/screenshots/automated_sales_system.png'
+import imgPMSystem from '@/images/screenshots/automated_project_management_system.png'
 
 const features = [
   {
     title: 'Vertriebssysteme',
     description:
       'Automatische Lead-Akquisitionssysteme, die KI verwenden, um Termine in Ihrem Kalender zu buchen.',
-    image: screenshotPayroll,
+    image: imgSalesSystem,
   },
   {
     title: 'Marketing-Systeme',
     description:
       'Vollständig betreute Inbound-Marketing-Systeme, die Leads automatisch pflegen und ansprechen.',
-    image: screenshotExpenses,
+    image: imgMarketingSystem,
   },
   {
     title: 'Projektmanagement-Systeme',
     description:
       'Hochrentable Projektmanagement-Systeme für Ihre Geschäftsanforderungen.',
-    image: screenshotVatReturns,
+    image: imgPMSystem,
   },
 ]
 
