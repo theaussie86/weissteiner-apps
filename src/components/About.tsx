@@ -5,7 +5,7 @@ import portrait from '@/images/screenshots/christoph-weissteiner.jpg'
 
 export default function About() {
   return (
-    <section className="isolate bg-slate-900">
+    <section id="about" className="isolate bg-slate-900">
       {/* Hero section */}
       <div className="relative isolate -z-10 overflow-hidden  pt-14">
         <div className="mx-auto max-w-7xl px-6 py-32 sm:py-40 lg:px-8">
