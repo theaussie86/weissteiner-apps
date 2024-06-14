@@ -80,7 +80,7 @@ const CookieConsent = () => {
     >
       <Dialog
         as="div"
-        className="fixed inset-0 z-10 overflow-y-auto"
+        className="fixed inset-0 z-50 overflow-y-auto"
         onClose={() => setShowModal(false)}
       >
         <div className="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity" />

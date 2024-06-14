@@ -96,8 +96,8 @@ function MobileNavigation() {
           leaveTo="opacity-0 scale-95"
         >
           <PopoverPanel className="absolute inset-x-0 top-full mt-4 flex origin-top flex-col rounded-2xl bg-white p-4 text-lg tracking-tight text-slate-900 shadow-xl ring-1 ring-slate-900/5">
-            <MobileNavLink href="#features">Services</MobileNavLink>
-            <MobileNavLink href="#about">Über mich</MobileNavLink>
+            <MobileNavLink href="/#features">Services</MobileNavLink>
+            <MobileNavLink href="/#about">Über mich</MobileNavLink>
             <hr className="m-2 border-slate-300/40 sm:hidden" />
             <GetStartedButton className="sm:hidden" />
           </PopoverPanel>
@@ -113,12 +113,12 @@ export function Header() {
       <Container>
         <nav className="relative z-50 flex justify-between">
           <div className="flex items-center md:gap-x-12">
-            <Link href="#" aria-label="Home">
+            <Link href="/" aria-label="Home">
               <Logo className="h-10 w-auto" />
             </Link>
             <div className="hidden md:flex md:gap-x-6">
-              <NavLink href="#features">Services</NavLink>
-              <NavLink href="#about">Über mich</NavLink>
+              <NavLink href="/#features">Services</NavLink>
+              <NavLink href="/#about">Über mich</NavLink>
             </div>
           </div>
           <div className="flex items-center gap-x-5 md:gap-x-8">
