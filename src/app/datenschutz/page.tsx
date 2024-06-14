@@ -1,3 +1,4 @@
+import ConsentStatus from '@/components/CookieConsentStatus'
 import { LegalLayout } from '@/components/LegalLayout'
 import Link from 'next/link'
 import React from 'react'
@@ -433,6 +434,7 @@ export default function Datenschutz() {
         Einwilligung (Art. 6 Abs. 1 lit. a DSGVO und § 25 Abs. 1 TTDSG); die
         Einwilligung ist jederzeit widerrufbar.
       </p>
+      <ConsentStatus />
       <p className="mb-4">
         Sie können Ihren Browser so einstellen, dass Sie über das Setzen von
         Cookies informiert werden und Cookies nur im Einzelfall erlauben, die

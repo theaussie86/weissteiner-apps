@@ -10,6 +10,7 @@ import {
 import { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
 import { formatDate } from 'date-fns'
+import { de } from 'date-fns/locale'
 import { Button } from './Button'
 
 export default function ConsentStatus() {
@@ -38,14 +39,16 @@ export default function ConsentStatus() {
         : setStatus('Einwilligung abgelehnt')
 
     const date = new Date(parseInt(dateStr))
-    const formattedDate = formatDate(date, 'PPpp')
+    const formattedDate = formatDate(date, 'PPp', {
+      locale: de,
+    })
     return hasGivenConsent
-      ? setStatus(`Einwilligung akzeptiert am ${formattedDate}`)
-      : setStatus(`Einwilligung abgelehnt am ${formattedDate}`)
+      ? setStatus(`Einwilligung akzeptiert am ${formattedDate} Uhr`)
+      : setStatus(`Einwilligung abgelehnt am ${formattedDate} Uhr`)
   }, [consent])
 
   return (
-    <p className="text-lg">
+    <p className="mb-4">
       {status}
       <Button
         type="button"
