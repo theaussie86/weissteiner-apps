@@ -33,7 +33,7 @@ export default function RootLayout({
 }) {
   return (
     <html
-      lang="en"
+      lang="de"
       className={clsx(
         'h-full scroll-smooth bg-white antialiased',
         inter.variable,
