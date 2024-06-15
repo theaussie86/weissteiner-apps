@@ -15,7 +15,7 @@ const features = [
   {
     title: 'Vertriebssysteme',
     description:
-      'Automatische Lead-Akquisitionssysteme, die KI verwenden, um Termine in Ihrem Kalender zu buchen.',
+      'Automatische Lead-Akquisitionssysteme, die KI verwenden, um Termine in deinem Kalender zu buchen.',
     image: imgSalesSystem,
   },
   {
@@ -27,7 +27,7 @@ const features = [
   {
     title: 'Projektmanagement-Systeme',
     description:
-      'Hochrentable Projektmanagement-Systeme für Ihre Geschäftsanforderungen.',
+      'Hochrentable Projektmanagement-Systeme für deine Geschäftsanforderungen.',
     image: imgPMSystem,
   },
 ]
@@ -69,13 +69,14 @@ export function PrimaryFeatures() {
       <Container className="relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-            Alles, was Sie brauchen, um Ihr Geschäft effizient zu betreiben.
+            Alles, was du brauchst, um dein Geschäft effizient zu betreiben.
           </h2>
           <p className="mt-6 text-lg tracking-tight text-blue-100">
-            Wir bieten maßgeschneiderte Lösungen für Selbstständige und kleine
-            Unternehmen, um ihre Systeme zu automatisieren und ihre Prozesse zu
-            optimieren. Egal ob es um Webentwicklung, Systemverknüpfung oder
-            Prozessoptimierung geht – wir haben die Expertise.
+            Entdecke maßgeschneiderte Lösungen, die speziell für Selbstständige
+            und kleine Unternehmen entwickelt wurden. Automatisiere deine
+            Systeme und optimiere deine Prozesse mit meiner Expertise. Egal, ob
+            du Unterstützung bei der Webentwicklung, Systemverknüpfung oder
+            Prozessoptimierung benötigst – ich bin für dich da.{' '}
           </p>
         </div>
         <TabGroup

@@ -29,9 +29,9 @@ export function Hero() {
         für kleine Unternehmen.
       </h1>
       <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
-        Finden Sie das perfekte Angebot, automatisieren Sie Ihre Lead-Gewinnung
-        und lösen Sie Ihre Projektmanagement-Probleme – während Sie Ihre Umsätze
-        weiter skalieren.
+        Finde das perfekte Angebot, automatisiere deine Lead-Gewinnung und löse
+        deine Projektmanagement-Probleme – während du deine Umsätze weiter
+        skalierst.
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
         <Button color="primary" href={CALENDLY_URL}>

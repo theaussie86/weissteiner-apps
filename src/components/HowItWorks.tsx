@@ -23,7 +23,7 @@ const steps: Array<Step> = [
     name: 'Gratis Gespräch',
     summary: 'Was möchtest du erreichen?',
     description:
-      'Wir können gemeinsam herausfinden, ob ich dir helfen kann und ob wir gut zusammenarbeiten können.',
+      'Entdecke, wie ich dir helfen kann und ob wir gut zusammenarbeiten. Lass uns gemeinsam herausfinden, ob wir die perfekte Lösung für deine Bedürfnisse finden.',
     image: screenshotMeeting,
     icon: function () {
       return (
@@ -46,7 +46,7 @@ const steps: Array<Step> = [
     name: 'Umfang & Angebot',
     summary: 'Wie erreichst du das?',
     description:
-      'Ich erstelle dir ein detailliertes Angebot mit den einzelnen Schritten, wie lange diese dauern und dens Kosten. Zusätzlich erhälst du eine Liste möglicher Erweiterungen.',
+      'Ich erstelle für dich ein detailliertes Angebot, das alle Schritte, die Dauer und die Kosten umfasst. Zusätzlich erhältst du eine Liste möglicher Erweiterungen, die dein Projekt weiter verbessern können.',
     image: screenshotOffer,
     icon: function () {
       return (
@@ -69,7 +69,7 @@ const steps: Array<Step> = [
     name: 'Projekt Kickoff',
     summary: "Wann geht's los?",
     description:
-      'Sobald du das Angebot angenommen hast, vereinbaren wir einen Termin für den Kickoff, bei dem wir alle Details besprechen und den Projektplan festlegen.',
+      'Sobald du das Angebot annimmst, vereinbaren wir einen Termin für den Kickoff. Dabei besprechen wir alle Details und legen den Projektplan fest.',
     image: screenshotKickoff,
     icon: function () {
       return (
