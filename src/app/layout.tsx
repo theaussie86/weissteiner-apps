@@ -8,10 +8,11 @@ import CookieConsent from '@/components/CookieConsentBanner'
 export const metadata: Metadata = {
   title: {
     template: '%s - CWeissteiner',
-    default: 'CWeissteiner - Automation für Selbstständige und KMUs',
+    default:
+      'CWeissteiner - Automation für Selbstständige und KMUs - Effizienz steigern und Wachstum fördern',
   },
   description:
-    'Most bookkeeping software is accurate, but hard to use. We make the opposite trade-off, and hope you don’t get audited.',
+    'Entdecke maßgeschneiderte Automatisierungslösungen für Selbstständige und kleine bis mittelständische Unternehmen (KMUs). Optimiere Deine Geschäftsprozesse, spare Zeit und Ressourcen und konzentriere Dich auf das Wesentliche - Dein Geschäftswachstum. Unsere Experten helfen Dir, die richtige Technologie zu finden und nahtlos zu integrieren. Starte jetzt und mache den ersten Schritt in eine effizientere Zukunft!',
 }
 
 const inter = Inter({

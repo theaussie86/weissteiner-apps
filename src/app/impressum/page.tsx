@@ -2,6 +2,10 @@ import { LegalLayout } from '@/components/LegalLayout'
 import Link from 'next/link'
 import React from 'react'
 
+export const metadata = {
+  title: 'Impressum',
+}
+
 export default function Impressum() {
   return (
     <LegalLayout>
